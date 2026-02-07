@@ -20,7 +20,7 @@ export default function AddToCartButton({
   slug,
   name,
   form,
-  priceLabel = "NPR 500",
+  priceLabel = "NPR 650",
   className,
   children,
   redirectToCheckout = false,

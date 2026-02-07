@@ -47,7 +47,7 @@ export default function AboutPage() {
             </p>
             <p className="text-lg leading-relaxed">
               Today, PraanCare stands as Nepal's first lab-certified,
-              QR-verifiable herbal wellness platform, combining ISO-certified
+              QR-verifiable herbal wellness platform, combining Nepcert-certified
               processing, AI-driven personalization, and ethical farmer
               partnerships to deliver trust you can scan.
             </p>

@@ -115,7 +115,7 @@ export default function OurFarmersPage() {
                 verification, not informal herb trading.
               </p>
               <ul className="space-y-3 text-gray-700">
-                <li>ISO / GMP-aligned processing goals</li>
+                <li>Nepcert / GMP-aligned processing goals</li>
                 <li>Certified lab partnerships</li>
                 <li>Quality-first procurement</li>
                 <li>Verified batches only</li>

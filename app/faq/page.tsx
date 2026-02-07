@@ -44,8 +44,8 @@ export default function FAQPage() {
           a: 'Yes, all our herbs are sourced from farmers practicing organic cultivation methods in high-altitude regions of Gorkha and Kavre. Our farmers do not use synthetic pesticides or chemical fertilizers. While we\'re in the process of obtaining formal organic certification, our lab tests confirm zero pesticide residue.',
         },
         {
-          q: 'What is ISO certification?',
-          a: 'Our processing facility in Lalitpur is ISO 22000:2018 certified, which is an international standard for food safety management systems. This means we follow strict protocols for hygiene, quality control, traceability, and contamination prevention throughout the manufacturing process.',
+          q: 'What is Nepcert certification?',
+          a: 'Our processing facility in Lalitpur is Nepcert certified, which means we follow strict protocols for hygiene, quality control, traceability, and contamination prevention throughout the manufacturing process.',
         },
       ],
     },

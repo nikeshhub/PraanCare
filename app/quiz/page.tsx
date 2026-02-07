@@ -75,7 +75,7 @@ export default function QuizPage() {
           slug: 'sesbania-sesban-juice',
           name: 'Sesbania sesban Juice',
           form: 'Medicinal Juice',
-          priceLabel: 'NPR 500',
+          priceLabel: 'NPR 650',
           description: 'Gentle herbal throat-soothing juice for daily riders and pollution exposure',
           why: 'Your answers show frequent exposure to dust and pollution. This juice supports respiratory comfort and helps reduce throat irritation.',
           dosage: '20–30 ml once daily, best after riding or in the evening'
@@ -86,7 +86,7 @@ export default function QuizPage() {
         slug: 'sesbania-sesban-powder',
         name: 'Sesbania sesban Powder',
         form: 'Herbal Throat Powder',
-        priceLabel: 'NPR 500',
+        priceLabel: 'NPR 650',
         description: 'Portable throat powder for ongoing respiratory comfort',
         why: 'This powder offers steady throat support and is easy to mix with warm water or milk for daily use.',
         dosage: '1 teaspoon (≈3–5 g) in 100–150 ml warm water or milk, once daily'
@@ -98,7 +98,7 @@ export default function QuizPage() {
       slug: 'sesbania-sesban-powder',
       name: 'Sesbania sesban Powder',
       form: 'Herbal Throat Powder',
-      priceLabel: 'NPR 500',
+      priceLabel: 'NPR 650',
       description: 'Daily throat comfort and herbal support for long exposure periods',
       why: 'This is a gentle, versatile option for daily wellness and throat comfort.',
       dosage: '1 teaspoon (≈3–5 g) in 100–150 ml warm water or milk, once daily'

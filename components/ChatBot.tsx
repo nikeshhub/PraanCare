@@ -70,7 +70,7 @@ export default function ChatBot() {
   ];
 
   const placeOrder = (slug: string, name: string, form: string) => {
-    addToCart({ slug, name, form, priceLabel: 'NPR 500' });
+    addToCart({ slug, name, form, priceLabel: 'NPR 650' });
     router.push('/checkout');
   };
 
@@ -191,9 +191,9 @@ export default function ChatBot() {
     // Price inquiry
     if (input.includes('price') || input.includes('cost') || input.includes('kati') || input.includes('मूल्य') || input.includes('कति')) {
       if (language === 'en') {
-        return "Here are our current products:\n\n• Sesbania sesban Juice — NPR 500\n• Sesbania sesban Powder — NPR 500\n\nWould you like to place an order or learn more?";
+        return "Here are our current products:\n\n• Sesbania sesban Juice — NPR 650\n• Sesbania sesban Powder — NPR 650\n\nWould you like to place an order or learn more?";
       } else {
-        return "हामीसँग अहिले यी उत्पादनहरू छन्:\n\n• Sesbania sesban Juice — NPR 500\n• Sesbania sesban Powder — NPR 500\n\nके तपाईं अर्डर गर्न चाहनुहुन्छ वा थप जान्न चाहनुहुन्छ?";
+        return "हामीसँग अहिले यी उत्पादनहरू छन्:\n\n• Sesbania sesban Juice — NPR 650\n• Sesbania sesban Powder — NPR 650\n\nके तपाईं अर्डर गर्न चाहनुहुन्छ वा थप जान्न चाहनुहुन्छ?";
       }
     }
 
@@ -209,9 +209,9 @@ export default function ChatBot() {
     // Safety / certification
     if (input.includes('safe') || input.includes('certified') || input.includes('test') || input.includes('सुरक्षित') || input.includes('प्रमाणित')) {
       if (language === 'en') {
-        return "Great question! All our products are:\n✓ Lab-tested for heavy metals (Lead, Mercury, Arsenic, Cadmium)\n✓ ISO certified processing\n✓ QR code verification on each package\n✓ Tested for microbial contamination and pesticides\n\nYou can scan the QR code on your product to see your batch's specific test results!";
+        return "Great question! All our products are:\n✓ Lab-tested for heavy metals (Lead, Mercury, Arsenic, Cadmium)\n✓ Nepcert certified processing\n✓ QR code verification on each package\n✓ Tested for microbial contamination and pesticides\n\nYou can scan the QR code on your product to see your batch's specific test results!";
       } else {
-        return "राम्रो प्रश्न! हाम्रा सबै उत्पादनहरू:\n✓ भारी धातुहरूको लागि प्रयोगशाला परीक्षण\n✓ ISO प्रमाणित प्रशोधन\n✓ प्रत्येक प्याकेजमा QR कोड प्रमाणीकरण\n✓ सूक्ष्मजीव र कीटनाशक परीक्षण\n\nतपाईंले आफ्नो उत्पादनको QR कोड स्क्यान गरेर आफ्नो ब्याचको परीक्षण परिणाम हेर्न सक्नुहुन्छ!";
+        return "राम्रो प्रश्न! हाम्रा सबै उत्पादनहरू:\n✓ भारी धातुहरूको लागि प्रयोगशाला परीक्षण\n✓ Nepcert प्रमाणित प्रशोधन\n✓ प्रत्येक प्याकेजमा QR कोड प्रमाणीकरण\n✓ सूक्ष्मजीव र कीटनाशक परीक्षण\n\nतपाईंले आफ्नो उत्पादनको QR कोड स्क्यान गरेर आफ्नो ब्याचको परीक्षण परिणाम हेर्न सक्नुहुन्छ!";
       }
     }
 
@@ -267,9 +267,9 @@ export default function ChatBot() {
     }
     if (input === 'products') {
       if (language === 'en') {
-        return "Here are our current products:\n\n1. Sesbania sesban Juice — NPR 500\n2. Sesbania sesban Powder — NPR 500\n\nWhich one would you like to learn more about?";
+        return "Here are our current products:\n\n1. Sesbania sesban Juice — NPR 650\n2. Sesbania sesban Powder — NPR 650\n\nWhich one would you like to learn more about?";
       } else {
-        return "हाम्रा उत्पादनहरू:\n\n1. Sesbania sesban Juice — NPR 500\n2. Sesbania sesban Powder — NPR 500\n\nतपाईं कुनबारे थप जान्न चाहनुहुन्छ?";
+        return "हाम्रा उत्पादनहरू:\n\n1. Sesbania sesban Juice — NPR 650\n2. Sesbania sesban Powder — NPR 650\n\nतपाईं कुनबारे थप जान्न चाहनुहुन्छ?";
       }
     }
     if (input === 'expert') {

@@ -29,7 +29,7 @@ export const products: Product[] = [
     heroDescription:
       "A fast-growing Himalayan herb formulation designed for riders and anyone exposed to dust and pollution.",
     form: "Medicinal Juice",
-    priceLabel: "NPR 500",
+    priceLabel: "NPR 650",
     benefits: [
       "Provides astringent action to calm swollen throat tissues",
       "Supports antimicrobial protection",
@@ -117,7 +117,7 @@ export const products: Product[] = [
     heroDescription:
       "Designed for long exposure days, with anti-inflammatory phytochemicals for sustained throat support.",
     form: "Herbal Throat Powder",
-    priceLabel: "NPR 500",
+    priceLabel: "NPR 650",
     benefits: [
       "Dried leaves provide anti-inflammatory phytochemicals",
       "Helps maintain throat health over long exposure periods",

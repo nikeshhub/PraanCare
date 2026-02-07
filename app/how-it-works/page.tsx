@@ -78,11 +78,11 @@ export default function HowItWorksPage() {
                   </div>
                   <div>
                     <h2 className="text-4xl font-heading font-bold text-stone">Lab Testing</h2>
-                    <p className="text-lg text-primary-teal font-semibold">ISO-Certified Safety</p>
+                    <p className="text-lg text-primary-teal font-semibold">Nepcert-Certified Safety</p>
                   </div>
                 </div>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Every batch of raw herbs enters our ISO-certified processing facility in Lalitpur, where rigorous testing ensures your safety and the product's potency.
+                  Every batch of raw herbs enters our Nepcert-certified processing facility in Lalitpur, where rigorous testing ensures your safety and the product's potency.
                 </p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   We test for heavy metals, pesticide residues, microbial contamination, and bioactive compound concentration. Only batches that meet our strict standards move forward.

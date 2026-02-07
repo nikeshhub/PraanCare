@@ -9,12 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import {
-  ArrowRight,
-  CheckCircle,
-  Smartphone,
-  Users,
-} from "lucide-react";
+import { ArrowRight, CheckCircle, Smartphone, Users } from "lucide-react";
 
 export default function Home() {
   return (
@@ -22,7 +17,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-white">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 hero-bg opacity-35"></div>
+          <div className="absolute inset-0 hero-bg opacity-60"></div>
           <div className="absolute inset-0 bg-gradient-to-br from-primary-teal/10 to-accent-saffron/10 opacity-60"></div>
         </div>
 
@@ -130,7 +125,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  ISO-certified local processing units and lab-tested,
+                  Nepcert-certified local processing units and lab-tested,
                   high-altitude raw herbs from trusted farmers.
                 </p>
               </CardContent>
